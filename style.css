@@ -17,45 +17,90 @@
 }
 
 #div1 >h1{
-    color: blue;
-    font-size: 2.5em;
+    color: #1877F2;
+    font-size: 3.5em;
     font-weight: bold;
+    
 }
 #div1 >span{
     
-    font-size: 2.1em;
+    font-size: 1.9em;
 }
-
+#div2{
+    width: 650px;
+}
 
 form{
     
     align-items: center;
     justify-content: center;
-    width: 350px;
-    max-width: 360px;
-    margin: 50px auto;
+    width: 460px;
+    max-width: 500px;
+    margin: 50px auto 20px auto;
     text-align: center; 
     background-color: #fff;
-    padding: 20px;
+    padding: 15px 10px 45px 10px;
+    border-radius: 5px;
     
+    
+   
+    
+}
+#formulaire{
+    display: block;
+    margin: 50px auto;
+}
+
+p{
+    display: block;
+    text-align: center;
 }
 
 input{
     display: block;
-    padding: 5px;
-    margin: 10px;
-    width: 220px;
-    outline: none;
-    margin-left: 10px;
-}
-button{
     padding: 15px;
-    margin:10px auto ;
-    width: 245px;
+    margin: 15px auto;
+    width: 410px;
+    outline: none;
+     background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+input[type="submit"]{
+    background-color: #1877F2;
     color: #fff;
-    background-color: blue;
+    padding: 15px;
+    font-size: 1.1em;
     font-weight: bold;
-    border-radius: 16px;
-    border: 1px solid blue;
-    font-size: 12px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+
+}
+hr{
+    width: 400px;
+    margin: 15px;
+}
+.mot_de_passe{
+    background-color: #fff;
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    text-align: center;
+    width: 350px;
+    color: #1877F2;
+    font-weight: bold;
+}
+
+.button{
+    padding: 15px;
+    margin:15px  ;
+    width: 20px;
+    color: #fff;
+    background-color: #26db68;
+    font-weight: bold;
+    text-decoration: none;
+    border: 0;
+    font-size: 15px;
+    border-radius: 5px;
 }
